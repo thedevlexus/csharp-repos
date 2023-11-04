@@ -1,0 +1,10 @@
+C:\Users\aluno\source\repos\Tela\bin\Debug\Tela.exe.config
+C:\Users\aluno\source\repos\Tela\bin\Debug\Tela.exe
+C:\Users\aluno\source\repos\Tela\bin\Debug\Tela.pdb
+C:\Users\aluno\source\repos\Tela\obj\Debug\Tela.csproj.AssemblyReference.cache
+C:\Users\aluno\source\repos\Tela\obj\Debug\Tela.Properties.Resources.resources
+C:\Users\aluno\source\repos\Tela\obj\Debug\Tela.csproj.GenerateResource.cache
+C:\Users\aluno\source\repos\Tela\obj\Debug\Tela.csproj.CoreCompileInputs.cache
+C:\Users\aluno\source\repos\Tela\obj\Debug\Tela.exe
+C:\Users\aluno\source\repos\Tela\obj\Debug\Tela.pdb
+C:\Users\aluno\source\repos\Tela\obj\Debug\Tela.Banco.resources
