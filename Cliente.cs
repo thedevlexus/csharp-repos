@@ -1,4 +1,5 @@
-﻿using System;
+﻿using MySql.Data.MySqlClient;
+using System;
 using System.Collections.Generic;
 using System.Linq;
 using System.Text;
@@ -11,24 +12,24 @@ namespace Tela
         public string nome;
         public double saldo;
 
-        public double depositoSaldo(double valor)
+        public void depositoSaldo(double valor)
         {
             if (valor <= 0)
             {
                 throw new Exception("Tem coisa errada ai parceiro.");
             }
 
-            saldo += valor;
-            return saldo;
+            Conexao conexao = new Conexao();
+            this.saldo += valor;
+ 
         }
-        public double saqueSaldo(double valor)
+        public void saqueSaldo(double valor)
         {
             if (valor <= 0 || saldo <= valor)
             {
                 throw new Exception("Tem coisa errada ai parceiro.");
             }
-            saldo -= valor;
-            return saldo;
+            this.saldo -= valor;
         }
 
     }
